@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ticket Booth Validator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Ticket Booth Validator</h1>
+
+<div class="card">
+  <label>
+    Ticket Type (REG, STU, VIP)
+    <input type="text" id="ticketType">
+  </label>
+
+  <label>
+    Quantity
+    <input type="number" id="quantity">
+  </label>
+
+  <label>
+    Promo Code (optional)
+    <input type="text" id="promo">
+  </label>
+
+  <button id="purchaseBtn">Purchase</button>
+  <button id="finishBtn">Finish / Summary</button>
+</div>
+
+<h2>Receipt</h2>
+<div id="receipt" class="card"></div>
+
+<h2>Summary</h2>
+<div id="summary" class="card"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
