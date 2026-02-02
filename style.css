@@ -1,0 +1,61 @@
+/* Simple styling with subtle Humber colours */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  background-color: #f7f9fc;
+}
+
+h1, h2 {
+  color: #002a5c; /* Humber navy */
+}
+
+.card {
+  border: 1px solid #d1d5db;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #ffffff;
+  border-left: 6px solid #fdb913; /* Humber gold accent */
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #002a5c;
+}
+
+input {
+  padding: 6px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  margin-right: 10px;
+  padding: 8px 14px;
+  cursor: pointer;
+  background-color: #002a5c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #01407e;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 6px;
+}
+
+th {
+  background-color: #fdb913;
+  color: #002a5c;
+}
